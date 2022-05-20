@@ -1,0 +1,7 @@
+Breast cancer is a formidable disease with more than 287,850  new patients are impacted annually in North America.
+There are reasonable efforts to understand breast cancer from a clinical perspective.
+UCI and Mayo clinic have provided data and multiple investigations have been conducted based on those.
+We are trying to see the problem from a novel perspective of social attributes.  
+That includes - the number of pregnancies, breastfeeding history, family history, breast size, age, height, and weight.
+We have reached a high accuracy of 89%. The generated decision tree is shared here to understand the priorities.
+We are thankful to a larger team inclusive of social sciences, arts, and psychology post-doc scholars for their kind reviews. 
