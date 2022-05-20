@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 19 19:27:20 2022
+
+@author: parij
+"""
+
+Accuracy: 0.675
+['age', 'size1', 'size2', 'pcount', 'bfcount', 'fhistory']
+|--- bfcount <= 46.50
+|   |--- pcount <= 0.50
+|   |   |--- age <= 30.50
+|   |   |   |--- class: 0
+|   |   |--- age >  30.50
+|   |   |   |--- class: 0
+|   |--- pcount >  0.50
+|   |   |--- fhistory <= 1.50
+|   |   |   |--- class: 0
+|   |   |--- fhistory >  1.50
+|   |   |   |--- class: 0
+|--- bfcount >  46.50
+|   |--- bfcount <= 54.50
+|   |   |--- size1 <= 44.50
+|   |   |   |--- class: 0
+|   |   |--- size1 >  44.50
+|   |   |   |--- class: 1
+|   |--- bfcount >  54.50
+|   |   |--- size1 <= 28.50
+|   |   |   |--- class: -1
+|   |   |--- size1 >  28.50
+|   |   |   |--- class: 0
